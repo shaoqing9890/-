@@ -1,0 +1,54 @@
+# 依赖目录 (Dependencies)
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+
+# 编译输出 (Build outputs)
+dist/
+build/
+*.egg-info/
+.tox/
+
+# IDE 文件 (IDE files)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件 (OS files)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 日志文件 (Log files)
+*.log
+logs/
+
+# 临时文件 (Temporary files)
+*.tmp
+*.temp
+.cache/
+
+# 测试覆盖率 (Test coverage)
+coverage/
+.coverage
+.nyc_output
+.pytest_cache/
+
+# 密钥和配置 (Secrets and config)
+*.key
+*.pem
+config.json
+secrets.json
